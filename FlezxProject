@@ -1,7 +1,7 @@
 -- [[ FLEZX PROJECT |  LOADER ]] --
  
 local _0xData = {104, 116, 116, 112, 115, 58, 47, 47, 112, 97, 115, 116, 101, 98, 105, 110, 46, 99, 111, 109, 47, 114, 97, 119, 47} 
-local _0xKey = "QbQ1VQwM"
+local _0xKey = "XirywXRx"
 
 local function _0xDecode(_0xT)
     local _0xR = ""
